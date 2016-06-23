@@ -4,7 +4,7 @@
 #       Author: ljfuyuan
 #        Email: ljfuyuan@qq.com
 #       Create: 2016-06-20 15:13:13
-#   LastChange: 2016-06-20 17:10:50
+#   LastChange: 2016-06-23 10:54:01
 #      History:
 =============================================================================*/
 package algorithm
@@ -36,8 +36,7 @@ func BubbleSort_2(data []int) {
 }
 
 func BubbleSort_3(data []int) {
-	dataLen := len(data)
-	lastPos := dataLen
+	lastPos := len(data)
 	for lastPos > 0 {
 		maxPos := lastPos
 		lastPos = 0
